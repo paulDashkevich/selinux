@@ -146,7 +146,8 @@ https://github.com/mbfx/otus-linux-adm/tree/master/selinux_dns_problems
 > очищаем лог-аудит -> echo > /var/log/audit/audit.log
 > с клиентской машины делаем запрос на обновление зоны bind
 > читаем алерты и выполняем то, что система просит:
-* setsebool -P named_write_master_zones 1
+> setsebool -P named_write_master_zones 1
+
 после этого делаем заново запрос на обновление и смотрим логи аудита, где больше ничего не происходит!
 ```
 [root@ns01 vagrant]# audit2why < /var/log/audit/audit.log
