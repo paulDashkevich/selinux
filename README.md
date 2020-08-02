@@ -156,3 +156,5 @@ Nothing to do
 100% done
 found 0 alerts in /var/log/audit/audit.log
 ```
+Вот и скрин задачи
+![alt text](https://github.com/paulDashkevich/selinux/blob/master/SELinux.png?raw=true)
